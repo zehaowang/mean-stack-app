@@ -1,8 +1,6 @@
 const express = require("express");
 const multer = require("multer");
 const Post = require("../models/post");
-const { create } = require("../models/post");
-
 const router = express.Router();
 
 const MIME_TYPE_MAP = {
